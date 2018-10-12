@@ -1,25 +1,32 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Navbar from './components/Navbar';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
+        <div className="jumbotron">
+          <Navbar />
+          <h1>
+            Anderson Wedding <br /> 6/29/19 <br /> Minneapolis, MN
+          </h1>
+        </div>
+        <div>
+          <p className="text">
+            Hydrogen atoms a mote of dust suspended in a sunbeam brain is the
+            seed of intelligence vastness is bearable only through love Vangelis
+            laws of physics. Kindling the energy hidden in matter the ash of
+            stellar alchemy star stuff harvesting star light descended from
+            astronomers great turbulent clouds two ghostly white figures in
+            coveralls and helmets are soflty dancing. Finite but unbounded
+            network of wormholes dispassionate extraterrestrial observer made in
+            the interiors of collapsing stars not a sunrise but a galaxyrise
+            extraordinary claims require extraordinary evidence and billions
+            upon billions upon billions upon billions upon billions upon
+            billions upon billions.
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        </div>
       </div>
     );
   }

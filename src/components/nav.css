@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.205);
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  max-width: 1800px;
+}
+
+.nav-item {
+  width: 8%;
+  min-width: 115px;
+  text-align: center;
+  color: white;
+  padding: 5px 0;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: 0.2s;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.61);
+  color: #222222;
+}
