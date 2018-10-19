@@ -1,8 +1,9 @@
 import React from 'react';
+import { StyledNavItem } from './Styled/styled';
 
 class NavItem extends React.Component {
   render() {
-    return <p className="nav-item">{this.props.label}</p>;
+    return <StyledNavItem>{this.props.label}</StyledNavItem>;
   }
 }
 
