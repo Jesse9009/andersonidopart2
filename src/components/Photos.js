@@ -14,6 +14,7 @@ class Photos extends React.Component {
     this.gotoNext = this.gotoNext.bind(this);
     this.gotoPrevious = this.gotoPrevious.bind(this);
   }
+
   openLightbox(event, obj) {
     this.setState({
       currentImage: obj.index,
