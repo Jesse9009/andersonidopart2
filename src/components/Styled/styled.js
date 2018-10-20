@@ -26,14 +26,14 @@ export const StyledNavItem = styled.p`
   transition: 0.2s;
 
   :hover {
-    background-color: rgba(255, 255, 255, 0.61);
+    background-color: rgba(255, 255, 240, 0.9);
     color: #222222;
   }
 `;
 
 export const Jumbotron = styled.div`
   background-image: url('https://uniim1.shutterfly.com/ng/services/mediarender/THISLIFE/022079630139/media/44106077440/large/1538437217/enhance');
-  height: 100vh;
+  height: 90vh;
   background-size: cover;
   background-position: top right;
   // background-attachment: fixed;
@@ -54,7 +54,7 @@ export const LandingPageText = styled.h1`
   width: 60%;
   text-align: center;
   color: white;
-  height: 100vh;
+  height: 90vh;
   line-height: 175%;
   text-shadow: 0px 0px 10px rgb(0, 0, 0);
 
@@ -62,5 +62,28 @@ export const LandingPageText = styled.h1`
     width: 100%;
     line-height: 125%;
     align-items: flex-end;
+  }
+`;
+
+export const OurStory = styled.p`
+  width: 80%;
+  margin: 20px auto;
+  font-size: 3rem;
+  text-align: center;
+  background-color: ivory;
+  padding: 50px 0;
+  line-height: 125%;
+  box-shadow: 0px 4px 10px rgb(0, 0, 0);
+  border-radius: 15px;
+
+  @media (max-width: 700px) {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  p {
+    font-size: 2rem;
+    padding: 4px 2%;
+    text-align: left;
   }
 `;

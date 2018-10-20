@@ -9,8 +9,10 @@ class Navbar extends React.Component {
   render() {
     return (
       <StyledNavbar>
-        {/* <NavItem label="Home" /> */}
         <Link to="/">
+          <NavItem label="Home" />
+        </Link>
+        <Link to="/ourstory">
           <NavItem label="Our Story" />
         </Link>
         {/* <NavItem label="Wedding Party" /> */}

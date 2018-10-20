@@ -1,3 +1,8 @@
+body {
+  background-color: lavender;
+  font-family: 'Dancing Script', cursive;
+}
+
 .jumbotron {
   background-image: url('https://uniim1.shutterfly.com/ng/services/mediarender/THISLIFE/022079630139/media/44106077440/large/1538437217/enhance');
   /* background-image: url('https://uniim1.shutterfly.com/ng/services/mediarender/THISLIFE/022079630139/media/44106573451/large/1538455879/enhance'); */
@@ -32,4 +37,18 @@ a {
 
 .photo-gallery {
   padding-top: 50px;
+}
+
+.photo-gallery h1 {
+  font-size: 4rem;
+  display: block;
+  width: 30%;
+  min-width: 300px;
+  margin: 15px auto;
+  text-align: center;
+  padding: 10px 0;
+  color: rgb(82, 82, 82);
+  background-color: ivory;
+  border-radius: 30px;
+  box-shadow: 0px 2px 2px rgb(116, 115, 115);
 }
