@@ -6,7 +6,7 @@ import {
   Jumbotron,
   LandingPageText,
   OurStory,
-  Accomodations
+  Accommodations
 } from './components/Styled/styled';
 import Photos from './components/Photos';
 import './App.css';
@@ -23,10 +23,9 @@ class App extends Component {
               <Navbar />
               <LandingPageText>
                 <div className="text">
-                  <p>Surly Brewing Company</p>
-                  <p>Minneapolis</p>
-                  <p>Minnesota</p>
+                  <p>Jesse and Paige's Wedding</p>
                   <p>6/29/19</p>
+                  <p>Surly Brewing Company</p>
                 </div>
               </LandingPageText>
             </Jumbotron>
@@ -63,13 +62,13 @@ class App extends Component {
           )}
         />
         <Route
-          path="/accomodations"
+          path="/accommodations"
           render={() => (
             <>
               <Navbar />
-              <Accomodations>
+              <Accommodations>
                 More information will be posted soon. Please check back.
-              </Accomodations>
+              </Accommodations>
             </>
           )}
         />

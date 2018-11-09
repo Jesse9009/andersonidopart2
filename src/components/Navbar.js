@@ -16,8 +16,8 @@ class Navbar extends React.Component {
           <NavItem label="Our Story" />
         </Link>
         {/* <NavItem label="Wedding Party" /> */}
-        <Link to="/accomodations">
-          <NavItem label="Accomodations" />
+        <Link to="/accommodations">
+          <NavItem label="Accommodations" />
         </Link>
         <Link to="/gallery">
           <NavItem label="Gallery" />

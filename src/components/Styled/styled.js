@@ -111,7 +111,7 @@ export const OurStory = styled.p`
   }
 `;
 
-export const Accomodations = styled.div`
+export const Accommodations = styled.div`
   text-align: center;
   font-size: 5rem;
   padding: 100px 0 70px 0;
