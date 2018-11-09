@@ -108,6 +108,7 @@ export const OurStory = styled.p`
     font-size: 2rem;
     padding: 4px 2%;
     text-align: left;
+    font-family: 'Georgia', serif;
   }
 `;
 
