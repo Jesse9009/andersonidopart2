@@ -23,7 +23,7 @@ class App extends Component {
               <Navbar />
               <LandingPageText>
                 <div className="text">
-                  <p>Surley Brewing Company</p>
+                  <p>Surly Brewing Company</p>
                   <p>Minneapolis</p>
                   <p>Minnesota</p>
                   <p>6/29/19</p>
